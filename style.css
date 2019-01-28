@@ -5,6 +5,7 @@
     flex-direction: column;
     margin: 0%;
     padding: 0%;
+    margin: 2pt;
 }
 
 header {
@@ -16,6 +17,7 @@ header {
     align-items: center;
     width: 100rem;
     height: 10rem;
+    margin: 2pt;
 }
 
 nav {
@@ -36,6 +38,7 @@ nav {
     align-content: center;
     width: 100rem;
     height: 25rem;
+    margin: 2pt;
 }
 
 #boxContainer .SECTION {
@@ -44,9 +47,10 @@ nav {
     align-items: center;
     flex-direction: column;
     width: 50rem;
-    height: 20rem;
+    height: 25rem;
     background-color: darkolivegreen;
     color: black;
+    margin: 2pt;
 }
 
 .ARTICLE {
@@ -55,7 +59,7 @@ nav {
     align-items: center;
     flex-direction: column;
     padding: 0.3rem 0.4rem;
-    border: solid red 3px;
+    border: solid red 5px;
     border-radius: .5rem;
     margin-top: 1rem;
     width: 45rem;
@@ -65,6 +69,7 @@ nav {
 h1{
     display: flex;
     justify-content: center;
+    align-content: center;
     color: black;
     background-color: blue;
     font-size: 10pt;
@@ -73,22 +78,47 @@ h1{
     
 }
 
-h2{
+h2{ 
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: black;
+    background-color: red;
+    font-size: 10pt;
+    height: 4rem;
+    width: 45rem;
 
 }
 
 h3{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: black;
+    background-color: orange;
+    font-size: 10pt;
+    height: 4rem;
+    width: 45rem;
 
 
 }
 
 .ASIDE {
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
     width: 50rem;
-    height: 20rem;
+    height: 25rem;
     background-color: darkviolet;
     color: black;
+    margin: 0rem;
 }
 
+#footer {
+    background-color: darkmagenta;
+    color: white;
+    height: 5rem;
+    width: 100rem;
+    margin: 2pt;
+   }
