@@ -1,0 +1,94 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    margin: 0%;
+    padding: 0%;
+}
+
+header {
+    color: blue;
+    background-color: blueviolet;
+    font-size: 35pt;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100rem;
+    height: 10rem;
+}
+
+nav {
+    background-color: darkblue;
+    color: white;
+    font-size: 25pt;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100rem;
+    height: 10rem;
+
+}
+
+#boxContainer {
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    width: 100rem;
+    height: 25rem;
+}
+
+#boxContainer .SECTION {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    width: 50rem;
+    height: 20rem;
+    background-color: darkolivegreen;
+    color: black;
+}
+
+.ARTICLE {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0.3rem 0.4rem;
+    border: solid red 3px;
+    border-radius: .5rem;
+    margin-top: 1rem;
+    width: 45rem;
+    height: 15rem;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    color: black;
+    background-color: blue;
+    font-size: 10pt;
+    height: 4rem;
+    width: 45rem;
+    
+}
+
+h2{
+
+}
+
+h3{
+
+
+}
+
+.ASIDE {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 50rem;
+    height: 20rem;
+    background-color: darkviolet;
+    color: black;
+}
+
