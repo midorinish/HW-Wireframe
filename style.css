@@ -1,16 +1,21 @@
-.container {
+body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777;
+    background: #777;
+    width: 960px;
+    font-size: 18px;
+
     display: flex;
-    justify-content: center;
-    align-content: center;
+    justify-content: flex-start;
+    align-content: flex-start;
     flex-direction: column;
-    margin: 0%;
-    padding: 0%;
     margin: 2pt;
-}
+
+    }
 
 header {
     color: blue;
-    background-color: blueviolet;
+    background-color: #ebebeb;
     font-size: 35pt;
     display: flex;
     justify-content: center;
@@ -21,15 +26,39 @@ header {
 }
 
 nav {
-    background-color: darkblue;
-    color: white;
+    background-color: #ebebeb;
     font-size: 25pt;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100rem;
     height: 10rem;
+    margin: 2pt;
 
+}
+
+ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li a{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    padding: 14px 16px;
+}
+
+li a:hover {
+    background-color: #111;
 }
 
 #boxContainer {
@@ -48,32 +77,35 @@ nav {
     flex-direction: column;
     width: 50rem;
     height: 25rem;
-    background-color: darkolivegreen;
+    background-color: #ebebeb;
     color: black;
     margin: 2pt;
 }
 
 .ARTICLE {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     flex-direction: column;
     padding: 0.3rem 0.4rem;
-    border: solid red 5px;
+    border: solid black 5px;
     border-radius: .5rem;
     margin-top: 1rem;
     width: 45rem;
     height: 15rem;
+    margin: 0pt;
+    color: #ebebeb;
+    background-color: #777;
 }
 
 h1{
     display: flex;
     justify-content: center;
     align-content: center;
-    color: black;
-    background-color: blue;
-    font-size: 10pt;
-    height: 4rem;
+    color: #777;
+    background-color: #ebebeb;
+    font-size: 15pt;
+    height: 1.5rem;
     width: 45rem;
     
 }
@@ -83,9 +115,9 @@ h2{
     justify-content: center;
     align-content: center;
     color: black;
-    background-color: red;
+    background-color: rgb(161, 158, 158);
     font-size: 10pt;
-    height: 4rem;
+    height: 1.5rem;
     width: 45rem;
 
 }
@@ -96,8 +128,8 @@ h3{
     align-content: center;
     color: black;
     background-color: orange;
-    font-size: 10pt;
-    height: 4rem;
+    font-size: 15pt;
+    height: 1.5rem;
     width: 45rem;
 
 
@@ -105,18 +137,18 @@ h3{
 
 .ASIDE {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: flex-start;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
     width: 50rem;
     height: 25rem;
-    background-color: darkviolet;
+    background-color: #ebebeb;
     color: black;
-    margin: 0rem;
+    margin: 2pt;
 }
 
 #footer {
-    background-color: darkmagenta;
+    background-color: #ebebeb;
     color: white;
     height: 5rem;
     width: 100rem;
